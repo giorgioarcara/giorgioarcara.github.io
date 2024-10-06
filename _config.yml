@@ -22,9 +22,9 @@ repository               : "giorgioarcara/giorgioarcara.github.io/"
 author:
   # Biographic information
   avatar           : "giorgio_profile.jpg"
-  name             : "Short Bio" #"Your Sidebar Name"
+  #name             : "Short Bio" #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "I am the head of Neurophysiology Laboratory at IRCCS San Camillo."
+  #bio              : "I am the head of Neurophysiology Laboratory at IRCCS San Camillo. My main research interest are Cognitive Neurosciene and Clinical Neuropsychology, with a focus on methodological aspects."
   location         : "Venice, Italy"
   employer         : "IRCCS San Camillo Hospital"
   uri              : # URL
