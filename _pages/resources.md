@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Here you can find some resources.\\
+Here you can find some resources.
 
 In the [code](/code) page, you can find some code I developed over the years.
 \\

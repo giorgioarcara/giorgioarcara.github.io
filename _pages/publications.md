@@ -9,16 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my publications in my [Scholar](https://scholar.google.com/citations?user=B7eJBYsAAAAJ&hl=en&oi=ao) or in my [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36714999100) account.
+You can check my publications in my [Scholar](https://scholar.google.com/citations?user=B7eJBYsAAAAJ&hl=en&oi=ao) or in my [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36714999100) account.
 	
-
-  <br>
-  Please find a publication list below.
-
   <br>
   <br>
-
-	
+  <br>
+List of Publications
+  <br>	
   <body>
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
   <div class="csl-entry"><b>Arcara, G.</b> (2024). <i>Improving Equivalent Scores for Clinical Neuropsychology: A new method for regression model selection</i>.</div>

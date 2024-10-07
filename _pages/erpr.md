@@ -65,7 +65,7 @@ If you did your pre-precessing with BRAINSTORM, you can use the the export_to_er
 The export_to_erpR process will appear under a new "Giorgio" tab ( Run - Giorgio - export to erpR).
 You can also use this process to export results from a Time Frequency analysis (using just one frequency or an average frequency band).
 
-process_export_erpR.m .a brainstorm process to export from brainstorm average data to erpR format.
+[`process_export_erpR.m`](/files/process_export_erpR.m) .a brainstorm process to export from brainstorm data to an erpR suitable format.
 (03/08/2018)
 
 
