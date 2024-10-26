@@ -18,6 +18,7 @@ redirect_from:
 * 1-year M.S. in "Neuropsychology of Acquired Cognitive Disorders", University of Padua, Padua, Italy, 2006
 * Degree in Psychology, University of Padua, Padua, Italy, 2005
 
+[`Link to a short CV`](/files/CV_Arcara_short.pdf) 
 
 
 
