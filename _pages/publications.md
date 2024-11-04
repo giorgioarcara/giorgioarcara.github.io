@@ -21,11 +21,11 @@ You can check all my publications in my [Scholar](https://scholar.google.com/cit
 
 3.	Borgomaneri, S., Zanon, M., Di Luzio, P., Cataneo, A., **Arcara, G.**, Romei, V., Tamietto, M., & Avenanti, A. (2023). Increasing associative plasticity in temporo-occipital back-projections improves visual perception of emotions. *Nature Communications*, 14(1), 5720.
 
-4.	Brkić, D., Sommariva, S., Schuler, A.-L., Pascarella, A., Belardinelli, P., Isabella, S. L., Di Pino, G., Zago, S., Ferrazzi, G., Rasero, J., & others. (2023). The impact of ROI extraction method for MEG connectivity estimation: Practical recommendations for the study of resting state data. *NeuroImage*, 284, 120424.
+4.	Brkić, D., Sommariva, S., Schuler, A.-L., Pascarella, A., Belardinelli, P., Isabella, S. L., Di Pino, G., Zago, S., Ferrazzi, G., Rasero, J., **Arcara, G.** Marinazzo, D., & Pellegrino, G. (2023). The impact of ROI extraction method for MEG connectivity estimation: Practical recommendations for the study of resting state data. *NeuroImage*, 284, 120424.
 
 5.	Lago, S., Pezzetta, R., Gastaldon, S., Peressotti, F., & **Arcara, G.** (2023). Trial-by-trial fluctuations of pre-stimulus alpha power predict language ERPs. *Psychophysiology*, 60(12), e14388.
 
-6.	Colenbier, N., Sareen, E., Puntas, T. del-Aguila, Griffa, A., Pellegrino, G., Mantini, D., Marinazzo, D., **Arcara, G.**, & Amico, E. (2023). Task matters: Individual MEG signatures from naturalistic and neurophysiological brain states. *NeuroImage*, 271, 120021.
+6.	Colenbier, N., Sareen, E., Puntas, T. del-Aguila, Griffa, A., Pellegrino, G., Mantini, D., Marinazzo, D., **Arcara, G.**<sup>#</sup>, & Amico, E.<sup>#</sup> (2023). Task matters: Individual MEG signatures from naturalistic and neurophysiological brain states. *NeuroImage*, 271, 120021.<sup>#</sup> *co-senior authors*.
 
 7.	Masina, F., Montemurro, S., Marino, M., Manzo, N., Pellegrino, G., & **Arcara, G.** (2022). State-dependent tDCS modulation of the somatomotor network: A MEG study. *Clinical Neurophysiology*, 142, 133–142.
 
@@ -40,7 +40,7 @@ You can check all my publications in my [Scholar](https://scholar.google.com/cit
 
 ### *Psychometrics and Clinical Neuropsychology*
 
-1. **Arcara, G.** (accepted). Improving Equivalent Scores for Clinical Neuropsychology: A new method for regression model selection. *Neurological Sciences*.
+1. **Arcara, G.** (2024). Improving Equivalent Scores for Clinical Neuropsychology: A new method for regression model selection. *Neurological Sciences*. doi: https://doi.org/10.1007/s10072-024-07806-z
 
 2.	Montemurro, S., Daini, R., Tagliabue, C., Guzzetti, S., Gualco, G., Mondini, S., & **Arcara, G.** (2023). Cognitive reserve estimated with a life experience questionnaire outperforms education in predicting performance on MoCA: Italian normative data. *Current Psychology*, 42(23), 19503–19517.
 
