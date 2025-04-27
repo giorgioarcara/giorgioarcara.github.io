@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior researcher and the head of the Neurophysiology Laboratory at San Camillo Hospital IRCCS in Venice. 
-My main research interests are cognitive neuroscience (with a focus on language), clinical neuropsychology, and statistical analysis. I'm a supporter of Open Science initiatives.
+I am a senior researcher and the head of the **ONDA Lab** (**O**pen methodologies for **N**eurorehabilitation and **D**ata **A**nalysis) at San Camillo Hospital IRCCS in Venice. 
+My main research interest is the application and development of advanced methods to neurophysiology, clinical neuropsychology, and cognitive neuroscience. I'm also a passionate supporter of Open Science initiatives.
 
 Feel free to reach out via my personal email [giorgio.arcara@gmail.com](mailto:giorgio.arcara@gmail.com) \\
 or my institutional email [giorgio.arcara@hsancamillo.it](mailto:giorgio.arcara@hsancamillo.it).
