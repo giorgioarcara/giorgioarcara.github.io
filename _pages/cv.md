@@ -10,8 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Current Position
-* 2019: Head of Neurophysiology Laboratory, Deputy Scientific Director
-  * IRCCS San Camillo Hospital, Venice Italy
+* 2025: Associate Professor of Psychometrics, University of Padova, Padova, Italy.
 
 ## Education
 * Ph.D in Psychobiology, University of Padua, Padua, Italy, 2010
