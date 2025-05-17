@@ -13,4 +13,4 @@ I am also senior researcher of the **ONDA Lab** (**O**pen methodologies for **N*
 My main research interest is the application and development of advanced methods to neurophysiology, clinical neuropsychology, and cognitive neuroscience. I'm also a passionate supporter of Open Science initiatives.
 
 Feel free to reach out via my personal email [giorgio.arcara@gmail.com](mailto:giorgio.arcara@gmail.com) \\
-or my institutional email [giorgio.arcara@hsancamillo.it](mailto:giorgio.arcara@hsancamillo.it).
+or my institutional email [giorgio.arcara@unipd.it](mailto:giorgio.arcara@unipd.it).
