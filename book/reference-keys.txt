@@ -1,0 +1,14 @@
+fig:nice-fig
+tab:nice-tab
+prerequisites
+intro
+interactive-shiny-app
+interactive-plot-with-manipulatewidget
+plotly-example
+literature
+methods
+math-example
+applications
+example-one
+example-two
+final-words
