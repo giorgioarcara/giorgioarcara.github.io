@@ -358,6 +358,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#un-libro-open" id="toc-un-libro-open" class="nav-link active" data-scroll-target="#un-libro-open">Un libro Open</a></li>
+  <li><a href="#un-libro-collaborativo" id="toc-un-libro-collaborativo" class="nav-link" data-scroll-target="#un-libro-collaborativo">Un libro collaborativo</a></li>
   <li><a href="#un-libro-in-costante-miglioramento" id="toc-un-libro-in-costante-miglioramento" class="nav-link" data-scroll-target="#un-libro-in-costante-miglioramento">Un libro in costante miglioramento</a></li>
   <li><a href="#una-nota-sul-titolo" id="toc-una-nota-sul-titolo" class="nav-link" data-scroll-target="#una-nota-sul-titolo">Una nota sul titolo</a></li>
   <li><a href="#femminile-e-maschile-nel-testo" id="toc-femminile-e-maschile-nel-testo" class="nav-link" data-scroll-target="#femminile-e-maschile-nel-testo">Femminile e maschile nel testo</a></li>
@@ -392,9 +393,46 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="un-libro-open">Un libro Open</h3>
 <p>La decisione di scrivere un libro <em>Open</em> (cioè liberamente scaricabile, modificabile e riutilizzabile) è innanzitutto una scelta ideologica: sono un convinto sostenitore dell’Open Science da oltre quindici anni e ritengo che, per un testo di questo tipo, sia l’opzione più logica. Gran parte dei libri e delle risorse da cui ho appreso i contenuti che propongo in queste pagine erano, o sono tuttora, liberamente accessibili, e considero questa modalità non solo sensata, ma anche eticamente corretta. Oltre alla dimensione ideologica, un libro <em>Open</em> come questo offre ulteriori vantaggi, che verranno illustrati nel paragrafo seguente.</p>
 </section>
+<section id="un-libro-collaborativo" class="level3">
+<h3 class="anchored" data-anchor-id="un-libro-collaborativo">Un libro collaborativo</h3>
+<p>Il libro è pensato per essere scritto anche contando sul contributo dei lettori. I contributi possono essere segnalazioni di typos, richiesta di chiarimenti, o di approfondimento, ma sono anche apprezzati anche commenti generali (es. suggerimenti a rimodulare la struttura di un capitolo). Non escludo di includere anche intere sezioni scritte da altre persone, se vorranno contribuire in questa maniera. Ovviamente, se il contributo sarà sostanziale, la persona sarà inserita tra coautori del libro. Alla destra di ogni pagina trovi due pulsanti che aiutano per una comunicazione rapida. Nota che per utilizzarli dovrai però creare un account <code>github</code>:</p>
+<ul>
+<li><em>“Segnala un problema”</em> può essere utilizzato per segnalare un errore generale o se vuoi lasciarmi un commento esteso.</li>
+<li><em>“Modifica questa pagina”</em> , può essere utilizzato se vuoi dare un contributo più fattivo e direttamente suggerire una correzione. Queste mi verranno segnalato e potrò incorporarle. Puoi utilizzare questo strumento per piccole modifiche, ma se pensi di fare una modifica sostanziale ti chiedo di contattarmi prima e di concordarla. Questo è per rispetto del tuo tempo, nel caso alla fine preferissi non inserire la modifica.</li>
+</ul>
+<p>In alternativa a questi, considera sempre che puoi scrivermi una mail a <a href="mailto:giorgio.arcara@gmail.com" class="email">giorgio.arcara@gmail.com</a>. Se sei pratico di github ovviamente sei invitato ad utilizzarlo, creando una fork e poi aprendo pull request per le modifiche. Ricorda che contribuendo accetti che i tuoi testi vengano inclusi sotto la licenza del progetto (CC BY-NC-SA 4.0).</p>
+</section>
 <section id="un-libro-in-costante-miglioramento" class="level3">
 <h3 class="anchored" data-anchor-id="un-libro-in-costante-miglioramento">Un libro in costante miglioramento</h3>
-<p>Ho scelto di scrivere un libro in questa modalità, tramite un sito e un .pdf scaricabile associato, perché sono fermamente convinto che (nel 2025, momento in cui sto cominciando a scrivere il volume), bisogna sfruttare tutte le opportunità date dalla tecnologia. Psicometria e statistica applicate alla neuropsicologia sono anche discipline in costante crescita e un libro pubblicato tramite canali tradizionali rischierebbe di essere obsoleto in alcune sue parti già al momento della pubblicazione. In questa maniera potrò anche migliorarlo costantemente sulla base dei commenti di lettori, professioniste/i e studenti/studentesse.</p>
+<p>Ho scelto di scrivere un libro in questa modalità, tramite un sito e un .pdf scaricabile associato, perché sono fermamente convinto che (nel 2025, momento in cui sto cominciando a scrivere il volume), bisogna sfruttare tutte le opportunità date dalla tecnologia. Psicometria e statistica applicate alla neuropsicologia sono anche discipline in costante crescita e un libro pubblicato tramite canali tradizionali rischierebbe di essere obsoleto in alcune sue parti già al momento della pubblicazione. Usare questo sistema permetterà anche un miglioramento dopo che il libro potrà essere considerato completo. Il libro usa una convenzione numerica ispirata al <strong>Semantic Versioning (SemVer)</strong> (sistema di numerazione di versioni dei software), adattato al processo di scrittura.</p>
+<p>Il formato è:</p>
+<pre><code>vMAJOR.MINOR.PATCH[-fase]</code></pre>
+<section id="significato-delle-parti" class="level4">
+<h4 class="anchored" data-anchor-id="significato-delle-parti">Significato delle parti</h4>
+<ul>
+<li><strong>MAJOR</strong> → Cambia quando viene raggiunta una pietra miliare importante (es. bozza completa, revisione principale, versione finale).</li>
+<li><strong>MINOR</strong> → Cambia quando viene aggiunto un nuovo capitolo o una sezione importante, o quando avviene una ristrutturazione significativa del testo.</li>
+<li><strong>PATCH</strong> → Cambia per correzioni minori, refusi, aggiustamenti di frasi, formattazione.</li>
+</ul>
+</section>
+<section id="etichette-di-fase" class="level4">
+<h4 class="anchored" data-anchor-id="etichette-di-fase">Etichette di fase</h4>
+<ul>
+<li><strong>alpha</strong> → Bozza iniziale, non revisionata.</li>
+<li><strong>beta</strong> → Contenuti quasi completi, pronti per revisione.</li>
+<li><strong>rc</strong> (release candidate) → Testo completo e rivisto, in attesa di pubblicazione.</li>
+<li><em>Nessuna etichetta</em> → Versione finale.</li>
+</ul>
+</section>
+<section id="esempi" class="level4">
+<h4 class="anchored" data-anchor-id="esempi">Esempi</h4>
+<pre><code>v0.1.0-alpha   # Primo capitolo in bozza
+v0.1.1-alpha   # Piccole correzioni al primo capitolo
+v0.2.0-alpha   # Secondo capitolo in bozza
+v1.0.0-beta    # Bozza del libro completa, in revisione
+v1.0.0         # Prima Versione finale pubblicata</code></pre>
+<p>Nota che la numerazione inizia da <strong>0</strong> finché il libro non è completo.</p>
+</section>
 </section>
 <section id="una-nota-sul-titolo" class="level3">
 <h3 class="anchored" data-anchor-id="una-nota-sul-titolo">Una nota sul titolo</h3>
