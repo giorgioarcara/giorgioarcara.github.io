@@ -12,3 +12,7 @@ iframe {
 .quarto-title-block .subtitle {
   font-size: 1.4rem;
 }
+
+p {
+  text-align: justify;
+}
