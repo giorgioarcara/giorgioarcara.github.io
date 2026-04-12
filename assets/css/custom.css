@@ -20,3 +20,8 @@ html {
 .masthead__menu-item:first-child {
   font-size: 1.5rem !important;  /* increase this value to make it bigger */
 }
+
+/* custom animated underline with unipd color  */
+.greedy-nav .visible-links a::before {
+  background: #9B0014 !important;
+}
