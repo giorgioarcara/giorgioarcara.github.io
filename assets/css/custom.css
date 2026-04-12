@@ -16,6 +16,10 @@ html {
   font-size: 1.2rem !important;  /* increase this value to make it bigger */
 }
 
+.greedy-nav li:first-child a {
+  color: #494e51 !important; /* change to any color you want */
+}
+
 /* to change name (first element of nav bar) size */
 .masthead__menu-item:first-child {
   font-size: 1.5rem !important;  /* increase this value to make it bigger */
