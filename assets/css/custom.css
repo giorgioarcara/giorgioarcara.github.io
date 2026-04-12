@@ -5,3 +5,18 @@ body, p, li, a, td, th, blockquote, div, span {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif !important;
 }
+
+/* to change all website size */
+html {
+  font-size: 16px !important; /* default is usually 16px, try 14px or 15px */
+}
+
+/* to change navigation bar font size */
+.masthead__menu-item {
+  font-size: 1.2rem !important;  /* increase this value to make it bigger */
+}
+
+/* to change name (first element of nav bar) size */
+.masthead__menu-item:first-child {
+  font-size: 1.5rem !important;  /* increase this value to make it bigger */
+}
