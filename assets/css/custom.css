@@ -16,6 +16,7 @@ html {
   font-size: 1.2rem !important;  /* increase this value to make it bigger */
 }
 
+/*  change color of name (first element of nav bar) */
 .greedy-nav li:first-child a {
   color: #494e51 !important; /* change to any color you want */
 }
