@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* to change all website size */
 html {
-  font-size: 16px !important; /* default is usually 16px, try 14px or 15px */
+  font-size: 18px !important; /* default is usually 16px, try 14px or 15px */
 }
 
 /* to change navigation bar font size */
