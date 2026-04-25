@@ -30,3 +30,8 @@ html {
 .greedy-nav .visible-links a::before {
   background: #9B0014 !important;
 }
+
+/* custom page title */
+.page__title {
+  font-size: 1.4rem !important; /* adjust as you like */
+}
