@@ -302,7 +302,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap # GIORGIO: removed sitemap.
   - jemoji
 
 # Mimic GitHub Pages with --safe
@@ -310,7 +310,7 @@ whitelist:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
+# - jekyll-sitemap # GIORGIO: removed sitemap.
   - jemoji
 
 
