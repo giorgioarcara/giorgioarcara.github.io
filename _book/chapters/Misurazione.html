@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Psicometria per la neuropsicologia clinica – Oltre i punteggi</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/Bibliografia.html" rel="next">
+<link href="../chapters/Introduzione.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e22fbe6e69edb8577f7b7bd0719516f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-b492d3a1716d8c39e5bc03f6ebc57359.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e22fbe6e69edb8577f7b7bd0719516f0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare",
+    "search-label": "Ricerca"
+  }
+}</script>
+
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../html.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Attiva/disattiva la barra laterale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Misurazione.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Psicometria per la neuropsicologia clinica</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Attiva/disattiva la barra laterale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Ricerca" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Oltre i punteggi</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/giorgioarcara/oltre-i-punteggi-elementi" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="../Oltre-i-punteggi.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="../Oltre-i-punteggi.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Attiva/disattiva la modalità oscura"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Ricerca"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Premesse</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Introduzione.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduzione</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Misurazione.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Psicometria per la neuropsicologia clinica</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Bibliografia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliografia</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Temp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lavoro in fase di sviluppo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendici</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Appendici/note-redazione.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A1. Note di redazione</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Appendici/registro-aggiornamenti.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A2. Registro aggiornamenti</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Appendici/definizioni.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A3. Definizioni</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Appendici/ringraziamenti-pers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ringraziamenti personali</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Indice</h2>
+   
+  <ul>
+  <li><a href="#perché-è-importante-misurare" id="toc-perché-è-importante-misurare" class="nav-link active" data-scroll-target="#perché-è-importante-misurare"><span class="header-section-number">1.1</span> Perché è importante misurare?</a></li>
+  <li><a href="#misurazione_e_neuropsicologia_clinica" id="toc-misurazione_e_neuropsicologia_clinica" class="nav-link" data-scroll-target="#misurazione_e_neuropsicologia_clinica"><span class="header-section-number">1.2</span> Misurazione e neuropsicologia clinica</a>
+  <ul class="collapse">
+  <li><a href="#la-definizione-di-misurazione-di-s.s.-stevens-1946-e-le-scale-di-misura" id="toc-la-definizione-di-misurazione-di-s.s.-stevens-1946-e-le-scale-di-misura" class="nav-link" data-scroll-target="#la-definizione-di-misurazione-di-s.s.-stevens-1946-e-le-scale-di-misura"><span class="header-section-number">1.2.1</span> La definizione di misurazione di S.S. Stevens (1946) e le scale di misura</a></li>
+  <li><a href="#definizione-di-misurazione-secondo-suppes-e-zinnes-1963" id="toc-definizione-di-misurazione-secondo-suppes-e-zinnes-1963" class="nav-link" data-scroll-target="#definizione-di-misurazione-secondo-suppes-e-zinnes-1963"><span class="header-section-number">1.2.2</span> Definizione di Misurazione secondo Suppes e Zinnes (1963)</a></li>
+  </ul></li>
+  <li><a href="#quale-definizione-di-misurazione-adottano-i-test-neuropsicologici" id="toc-quale-definizione-di-misurazione-adottano-i-test-neuropsicologici" class="nav-link" data-scroll-target="#quale-definizione-di-misurazione-adottano-i-test-neuropsicologici"><span class="header-section-number">1.3</span> Quale definizione di misurazione adottano i test neuropsicologici?</a></li>
+  <li><a href="#i-test" id="toc-i-test" class="nav-link" data-scroll-target="#i-test"><span class="header-section-number">1.4</span> I test</a>
+  <ul class="collapse">
+  <li><a href="#tipologie-di-test" id="toc-tipologie-di-test" class="nav-link" data-scroll-target="#tipologie-di-test"><span class="header-section-number">1.4.1</span> Tipologie di test</a></li>
+  <li><a href="#questo-è-un-buon-test" id="toc-questo-è-un-buon-test" class="nav-link" data-scroll-target="#questo-è-un-buon-test"><span class="header-section-number">1.4.2</span> Questo è un buon test?</a></li>
+  </ul></li>
+  <li><a href="#teoria-classica-dei-test" id="toc-teoria-classica-dei-test" class="nav-link" data-scroll-target="#teoria-classica-dei-test"><span class="header-section-number">1.5</span> Teoria Classica dei Test (CTT)</a>
+  <ul class="collapse">
+  <li><a href="#il-principio-cardine-x-t-e" id="toc-il-principio-cardine-x-t-e" class="nav-link" data-scroll-target="#il-principio-cardine-x-t-e"><span class="header-section-number">1.5.1</span> Il principio cardine: X = T + E</a></li>
+  <li><a href="#limiti-della-ctt" id="toc-limiti-della-ctt" class="nav-link" data-scroll-target="#limiti-della-ctt"><span class="header-section-number">1.5.2</span> Limiti della CTT</a></li>
+  <li><a href="#riassunto-sulla-ctt" id="toc-riassunto-sulla-ctt" class="nav-link" data-scroll-target="#riassunto-sulla-ctt"><span class="header-section-number">1.5.3</span> Riassunto sulla CTT</a></li>
+  </ul></li>
+  <li><a href="#validità-ed-affidabilità" id="toc-validità-ed-affidabilità" class="nav-link" data-scroll-target="#validità-ed-affidabilità"><span class="header-section-number">1.6</span> Validità ed Affidabilità</a>
+  <ul class="collapse">
+  <li><a href="#tipi-di-validità-e-perché-sono-importanti" id="toc-tipi-di-validità-e-perché-sono-importanti" class="nav-link" data-scroll-target="#tipi-di-validità-e-perché-sono-importanti"><span class="header-section-number">1.6.1</span> Tipi di Validità e perché sono importanti</a></li>
+  </ul></li>
+  <li><a href="#affidabilità" id="toc-affidabilità" class="nav-link" data-scroll-target="#affidabilità"><span class="header-section-number">1.7</span> Affidabilità</a>
+  <ul class="collapse">
+  <li><a href="#tipi-di-affidabilità-e-perché-sono-importanti" id="toc-tipi-di-affidabilità-e-perché-sono-importanti" class="nav-link" data-scroll-target="#tipi-di-affidabilità-e-perché-sono-importanti"><span class="header-section-number">1.7.1</span> Tipi di affidabilità e perché sono importanti</a></li>
+  </ul></li>
+  <li><a href="#sviluppo-di-test-secondo-ctt" id="toc-sviluppo-di-test-secondo-ctt" class="nav-link" data-scroll-target="#sviluppo-di-test-secondo-ctt"><span class="header-section-number">1.8</span> Sviluppo di test secondo CTT</a></li>
+  <li><a href="#oltre-la-teoria-classica-dei-test" id="toc-oltre-la-teoria-classica-dei-test" class="nav-link" data-scroll-target="#oltre-la-teoria-classica-dei-test"><span class="header-section-number">1.9</span> Oltre la Teoria Classica dei Test</a></li>
+  <li><a href="#nella-pratica-clinica-come-usare-affidabilità-e-validità-per-scegliere-i-test" id="toc-nella-pratica-clinica-come-usare-affidabilità-e-validità-per-scegliere-i-test" class="nav-link" data-scroll-target="#nella-pratica-clinica-come-usare-affidabilità-e-validità-per-scegliere-i-test"><span class="header-section-number">1.10</span> Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test</a></li>
+  <li><a href="#nella-pratica-clinica-come-usare-affidabilità-e-validità-per-interpretare-i-test" id="toc-nella-pratica-clinica-come-usare-affidabilità-e-validità-per-interpretare-i-test" class="nav-link" data-scroll-target="#nella-pratica-clinica-come-usare-affidabilità-e-validità-per-interpretare-i-test"><span class="header-section-number">1.11</span> Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test</a></li>
+  <li><a href="#errori-comuni-nel-considerare-gli-aspetti-psicometrici-dei-test." id="toc-errori-comuni-nel-considerare-gli-aspetti-psicometrici-dei-test." class="nav-link" data-scroll-target="#errori-comuni-nel-considerare-gli-aspetti-psicometrici-dei-test."><span class="header-section-number">1.12</span> Errori comuni nel considerare gli aspetti psicometrici dei test.</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/giorgioarcara/oltre-i-punteggi-elementi/issues/new" class="toc-action"><i class="bi bi-github"></i>Segnala un problema</a></li><li><a href="https://github.com/giorgioarcara/oltre-i-punteggi-elementi/edit/main/chapters/Misurazione.qmd" class="toc-action"><i class="bi empty"></i>Modifica questa pagina</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="psicometria-per-la-neuropsicologia-clinica" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Psicometria per la neuropsicologia clinica</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="perché-è-importante-misurare" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="perché-è-importante-misurare"><span class="header-section-number">1.1</span> Perché è importante misurare?</h2>
+<p>Un intero capitolo dedicato alla misurazione non può che iniziare da una possibile definizione di cosa si intende appunto per misurazione:</p>
+<p><em>La misurazione è l’utilizzo di numeri per descrivere delle entità di interesse</em>.</p>
+<p>Come vedremo nel <a href="#misurazione_e_neuropsicologia_clinica">prossimo paragrafo</a>, esistono svariate possibili definizioni di misurazione, con implicazioni non banali, ma accontentiamoci per il momento di questa sopra per fare alcune prime considerazioni. Innanzitutto, misurare quasi sempre è associato all’ottenimento di <em>numeri</em>, cioè punteggi, che ci aiutano nella descrizione di qualcosa. Queste <em>entità di interesse</em> in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria.</p>
+<p>Per misurare utilizziamo i <strong>test</strong> cioè specifici strumenti sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un <a href="#i-test">paragrafo dedicato</a></p>
+<p></p>
+<p>Prima di cominciare ad entrare in tutti i dettagli è importante soffermarsi su una domanda fondamentale:</p>
+<div class="domanda">
+<p><em>Perché è importante misurare?</em></p>
+</div>
+<p>Non possiamo dare per scontato che sia una cosa necessaria o indispensabile e anzi, è utile riflettere sull’utilità di utilizzare numeri per descrivere qualcosa.</p>
+<p>La misurazione è innanzitutto considerata una delle basi del metodo scientifico e un approccio scientifico e basato sull’evidenza, non può che passare dalla misurazione. Un celebre aforisma (probabilmente apocrifo) di Galileo Galilei, uno dei padri del metodo scientifico è: <em>misura ciò che puoi misurare, rendi misurabile ciò che non lo è</em> . Anche ogni libro che parli di epistemologia, cioè la filosofia della scienza, tende ad avere un capitolo o una sezione dedicata alla misurazione, a sostegno di quanto sia fondamentale per il processo scientifico (Boniolo &amp; Vidali, 1999). In breve quindi:</p>
+<p><em>misurare in neuropsicologia clinica ci permette di adottare un approccio scientifico e andare oltre la semplice osservazione clinica qualitativa</em></p>
+<p>Fermiamoci adesso un attimo a riflettere su quale è lo scopo di una valutazione neuropsicologica. Lo scopo potrebbe essere l’accertamento sul sospetto di una patologia in corso (es. un sospetto di demenza, sospetto di ADHD), o la caratterizzazione di un disturbo cognitivo in una condizione accertata (es. capire se un trauma cranico ha avuto delle conseguenze). Le informazioni possono avere fini diagnostici, prognostici, o di monitoraggio longitudinale. Nel caso di monitoraggio longitudinale questo in genere è effettuato per investigare il decorso di una patologia nel tempo o per valutare l’effetto di un trattamento riabilitativo. La misurazione è utile perché ci permette dunque di avere più informazioni rilevanti per la valutazione neuropsicologica e di risultati più <em>oggettivi</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Ma effettuare delle misurazioni ci è utile anche per altro: utilizzare dei punteggi ci permette di creare una sorta di <em>linguaggio comune</em> per la discussione di un caso clinico. Oltre ad alcune etichette cliniche diffuse in certi ambiti, come <em>decadimento cognitivo lieve</em>, <em>decadimento cognitivo moderato</em>, i punteggi ai test rappresentano infatti un’opportunità per comunicare rapidamente lo stato di un individuo. Per esempio per chi lavora in ambito di disturbi cognitivi nell’ambito delle demenza, dire che un paziente ha un MMSE (MiniMental State Examination; (Folstein et al., 1975)) pari a 12, denota senza bisogno di ulteriori dettagli uno stato di decadimento cognitivo piuttosto grave. Questo aspetto è approfondito nel paragrafo <em>“Focus: utilizzare i punteggi per comunicare”</em>. <!-- NOTA GIORGIO: mettere qui anche dei link a paragrafi specifici--></p>
+<p>È inoltre importante notare che in alcune branche della psicologia clinica l’utilizzo di punteggi e la misurazione non sono considerati necessari o fondamentali. Si pensi ad esempio ad approcci come la psicoanalisi, o alcuni approcci costruttivisti alla psicoterapia. Entrambi non fanno quasi uso di strumenti di misurazione e i test hanno spesso un ruolo nullo o marginale. Quando si parla però di neuropsicologia clinica o di valutazione neuropsicologica, la prima cosa che viene in mente è invece una persona che sta effettuando una serie di test per riuscire a comprendere lo stato cognitivo di un individuo e una serie di punteggi ottenuti da questi test: la misurazione sembra un aspetto imprescindibile. Provando a chiedere a ChatGPT4.0 la seguente cosa <em>Crea un disegno in bianco e nero di una neuropsicologa che sta effettuando una valutazione neuropsicologica</em> il risultato che ho ottenuto (14/09/2025) è la figura qui di seguito: una persona che sta somministrando un test, verosimilmente per misurare qualche aspetto del funzionamento cognitivo della persona esaminata.</p>
+<div id="fig-chatgpt-valutazione" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chatgpt-valutazione-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../Figures/Valutazione_Neuropsi_ChatGPT.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chatgpt-valutazione-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1.1: Una valutazione neuropsicologica secondo ChatGPT (vedi testo per il prompt esatto)
+</figcaption>
+</figure>
+</div>
+<p>In altre parole, la neuropsicologia clinica come disciplina <em>presuppone</em> che la misurazione degli oggetti di interesse (funzionamento cognitivo, rischio di sviluppare una malattia, ecc.) consenta di raggiungere conclusioni diagnostiche migliori, di fare scelte terapeutiche più efficaci e, in generale, di svolgere una migliore attività clinica (si veda il paragrafo <em>“Epistemologia della neuropsicologia clinica”</em> per ulteriori dettagli). La misurazione, cioè l’utilizzo di punteggi, ci aiuta a quantificare delle proprietà di interesse e poter fare delle scelte cliniche più precise rispetto al solo utilizzo della osservazione clinica qualitativa e basate su evidenze scientifiche. Il più delle volte questo implica che i punteggi sono confrontati con delle soglie e se i valori sono al di là di queste soglie, viene concluso che il risultato ha rilevanza clinica (useremo più avanti termini più tecnici e definizioni più precise). La persona con il punteggio al di là della soglia potrebbe avere un deficit cognitivo, o forse un rischio di avere una patologia neurodegenerativa o un disturbo del neurosviluppo.</p>
+<p>Va da sé, che se questo è uno dei presupposti della neuropsicologia clinica come disciplina, effettuare correttamente le misurazioni è un primo aspetto fondamentale che determinerà la qualità della nostra attività clinica.</p>
+</section>
+<section id="misurazione_e_neuropsicologia_clinica" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="misurazione_e_neuropsicologia_clinica"><span class="header-section-number">1.2</span> Misurazione e neuropsicologia clinica</h2>
+<p>La disciplina che si occupa della misurazione in psicologia (e in neuropsicologia) è la <strong>psicometria</strong>, una delle discipline che, insieme alla statistica, rappresentano le fondamenta di questo libro. La psicometria si occupa proprio delle questioni della misurazione in psicologia, una tipologia di misurazione molto particolare perché non tratta di proprietà di oggetti fisici ma di <strong>costrutti</strong>, cioè concetti psicologici non osservabili.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definizione
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Costrutto</strong>: Un concetto psicologico non direttamente osservabile (es. memoria, attenzione, intelligenza). Per renderlo misurabile, è associato ad uno o più <em>indicatori</em> (o <em>proxy</em> in inglese). </p>
+<p><strong>Indicatore</strong> Un comportamento osservabile che, da solo o insieme ad altri, si assume sia manifestazione di un costrutto a cui è associato. In neuropsicologia clinica, sono tipici indicatori le risposte ad un test.</p>
+</div>
+</div>
+<p>Il fatto che i costrutti siano proprietà non osservabili non è di per sé un problema insormontabile ed è comune in vari ambiti diversi da quello psicologico. Per esempio, si pensi, al campo magnetico prodotto da un oggetto, o alla sua temperatura, entrambe proprietà non direttamente osservabili ma misurabili attraverso indicatori fisici.</p>
+<p>Consideriamo il classico termometro con colonnina di galinstan (un tempo a mercurio). La <em>temperatura</em> del nostro corpo non è direttamente osservabile ma possiamo misurarla grazie a un indicatore fisico osservabile: l’espansione di una colonna di un metallo liquido (galinstan o mercurio) all’interno del termometro. Quando la temperatura aumenta, il liquido si espande e la sua variazione in lunghezza viene trasformata in un numero che rappresenta la proprietà fisica che ci interessa, cioè la temperatura. Nessuno mette in dubbio la bontà di questa misurazione perché diamo per scontata con precisione la relazione fisica tra la temperatura e l’espansione del metallo.</p>
+<p>La misurazione psicologica funziona in modo analogo, con indicatori osservabili (es. le risposte a un test), associati a costrutti non osservabili che intendiamo misurare. La psicometria, come disciplina, si occupa proprio di come rendere questa relazione il più precisa e giustificata possibile (questo esempio è ripreso e approfondito anche nel paragrafo <a href="#i-test"><em>“i test”</em></a>).</p>
+<p>Una caratteristica peculiare della misurazione psicologica è infatti che la relazione tra ciò che è l’esito della misura (cioè il punteggio) e ciò che si vuole misurare, cioè il costrutto, è molto indiretto. <!--(Nota Giorgio: qui si parlava  di numeri e poi la citazione di lezak è su comportamento--> Nel suo manuale “Neuropsychological Assessment”, Muriel Lezak, una delle persone più influenti nella neuropsicologia clinica riporta questo passaggio (di Sivan &amp; Benton, 1999) molto esplicito a riguardo.</p>
+<p><em>“Le abilità cognitive (e le disabilità) sono proprietà funzionali dell’individuo che non vengono osservate direttamente, ma piuttosto inferite dal comportamento. Ogni comportamento (compresa la performance nei test neuropsicologici) è determinato da molteplici fattori: l’insuccesso di un paziente in una prova di ragionamento astratto può non dipendere da un deficit specifico nel pensiero concettuale, ma da un disturbo dell’attenzione, da una difficoltà verbale o dall’incapacità di discriminare gli stimoli della prova.”</em> (Sivan &amp; Benton, 1999)</p>
+<p>In breve:</p>
+<p><em>Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspetto del funzionamento cognitivo (normale o deficitario). Quasi per definizione ogni comportamento è riconducibile a più funzioni cognitive</em>. <!--(Nota Giorgio: aggiungere? altre citazioni qui?) --></p>
+<p>È importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i test che misurano costrutti oppure solo per i test che <em>non</em> misurano costrutti. Tutti questi aspetti saranno approfonditi nei paragrafi e capitoli successivi <!-- NOTA GIORGIO: Aggiungere hyperlink corretti qui --></p>
+<section id="la-definizione-di-misurazione-di-s.s.-stevens-1946-e-le-scale-di-misura" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="la-definizione-di-misurazione-di-s.s.-stevens-1946-e-le-scale-di-misura"><span class="header-section-number">1.2.1</span> La definizione di misurazione di S.S. Stevens (1946) e le scale di misura</h3>
+<p>La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che ha influenzato (nel bene e nel male) la storia della psicologia:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definizione
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Misurazione secondo Stevens</strong></p>
+<p><em>“…possiamo dire che la misurazione, nel senso più ampio, è definita come l’assegnazione di numeri a oggetti o eventi secondo determinate regole.”</em> (Stevens, 1946) - p.&nbsp;667</p>
+</div>
+</div>
+<p>La proposta di Stevens va contestualizzata al clima del momento. Alla fine degli anni quaranta si stava discutendo in ambito scientifico se gli oggetti di interesse della psicologia potessero essere misurati e se, quindi, la psicologia potesse essere considerata una scienza. L’iniziale conclusione di una commissione internazionale di fisici e psicologi che si era riunita per dare una risposta a questa domanda era arrivata alla conclusione che, secondo una definizione rigorosa di misurazione, la risposta era <em>no</em>. Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l’utilizzo che si può fare dei numeri o classificazioni e questo dipende dalla <strong>Scala di misura</strong>. A seconda delle proprietà misurate potrebbe quindi essere diverso l’utilizzo che possiamo fare dei numeri. La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiarire l’utilizzo dei numeri per la misurazione in diverse circostanze.</p>
+<p>Esistono quattro scale di misura: <em>categoriale, ordinale, a intervalli, a rapporti</em>. Queste scale possono essere organizzate gerarchicamente (categoriale al livello più basso, a rapporti al livello più alto), e le operazioni possibili ad un livello più basso sono possibili a tutti i livelli superiori. Per esempio calcolare la mediana è possibile a livello di scala ordinale, ma anche nella scala ad intervalli e a rapporti in quanto più alte nella gerarchia. Da notare che anche il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione, utilizzando una <em>scala categoriale</em>. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportato nella tabella 1.2.</p>
+<table class="caption-top table">
+<caption>Tabella 1.2: Le quattro tipologie di scale di misura secondo S.S. Stevens.</caption>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 43%">
+<col style="width: 18%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Scala</th>
+<th>Descrizione</th>
+<th>Esempio</th>
+<th>Operazioni possibili</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Nominale</strong></td>
+<td>Classificazione in categorie senza ordine implicito</td>
+<td>Sesso (M/F), Colori, Nazionalità</td>
+<td>Conteggio, moda, verifica uguaglianza/differenza</td>
+</tr>
+<tr class="even">
+<td><strong>Ordinale</strong></td>
+<td>Classificazione con ordine, ma le distanze tra categorie non hanno significato</td>
+<td>Posizione in una classifica, Titolo di studio</td>
+<td>Ordinamento, mediane, percentili</td>
+</tr>
+<tr class="odd">
+<td><strong>Intervallo</strong></td>
+<td>Misura con ordine e intervalli uguali, ma senza zero assoluto significativo</td>
+<td>Temperatura in °C, IQ</td>
+<td>Addizione, Sottrazione,Media, Deviazione standard, z-score</td>
+</tr>
+<tr class="even">
+<td><strong>Rapporto</strong></td>
+<td>Misura con ordine, intervalli uguali e lo zero ha un significato</td>
+<td>Età, Scolarità in anni, tempi di reazione</td>
+<td>Tutte le operazioni aritmetiche (×, ÷, +, −), z-score, rapporti</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Legenda</strong><br>
+- <em>Scala</em>: tipo di misura secondo la classificazione di Stevens.<br>
+- <em>Descrizione</em>: caratteristiche principali della scala.<br>
+- <em>Esempio</em>: variabili reali che rientrano in quella scala.<br>
+- <em>Operazioni possibili</em>: trasformazioni matematiche e statistiche consentite dai dati.</p>
+<p>L’idea di avere una definizione di misurazione molto generica, accompagnata ad una distinzione di scale di misura è molto potente e tuttora è molto influente nella misurazione in psicologia. Come anticipato, però, ci sono anche altre definizioni. Nel prossimo paragrafo sarà approfondita una di queste, che entrava in contrasto con la proposta di Stevens. <!-- forse aggiungere che questa definizione non è prima di problemi). --></p>
+</section>
+<section id="definizione-di-misurazione-secondo-suppes-e-zinnes-1963" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="definizione-di-misurazione-secondo-suppes-e-zinnes-1963"><span class="header-section-number">1.2.2</span> Definizione di Misurazione secondo Suppes e Zinnes (1963)</h3>
+<p>Un’altra possibile definizione di misurazione, molto celebre in psicometria è quella di Suppes e Zinnes (\cite{suppes1963basic}). A differenza di quella di Stevens è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.</p>
+<p>Definiamo <em>Sistema Relazionale Empirico</em>, come l’insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il <em>Sistema Relazionale Numerico</em> un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere il sistema Relazionale Empirico.</p>
+<div id="fig-measurement-fisico" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-measurement-fisico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../Figures/Latex-Fig-Misurazione-Fisica/Fig_measurement_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-measurement-fisico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1.2: Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione della lunghezza di un tavolo.
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definizione
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Misurazione secondo Suppes e Zinnes (1963)</strong></p>
+<p>La misurazione consiste in un <strong>omomorfismo</strong> tra un <em>Sistema Relazionale Numerico</em> e un <em>Sistema Relazionale Empirico</em>.</p>
+</div>
+</div>
+<p>Con <em>omomorfismo</em> si intende una corrispondenza tra i due sistemi che preserva le relazioni tra gli elementi. Ad esempio, se nel Sistema Relazionale Empirico abbiamo una relazione di ordine (ad esempio, l’oggetto A è più lungo dell’oggetto B), allora questa relazione deve essere preservata nel Sistema Relazionale Numerico (il numero associato all’oggetto A deve essere maggiore del numero associato all’oggetto B).</p>
+<p>Nell’esempio della <a href="#fig-measurement-fisico" class="quarto-xref">Figura&nbsp;<span>1.2</span></a>, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica: lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi (si veda <a href="#fig-measurement-psicologico" class="quarto-xref">Figura&nbsp;<span>1.3</span></a>).</p>
+<div id="fig-measurement-psicologico" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-measurement-psicologico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../Figures/Latex-Fig-Misurazione-Psicologica/Fig_measurement_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-measurement-psicologico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1.3: Sistema Relazionale Empirico e Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).
+</figcaption>
+</figure>
+</div>
+<p>In questo caso possiamo dire che il nostro Sistema Relazionale Empirico<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> è dato dall’insieme di tutti i possibili livelli di memoria e il Sistema Relazionale Numerico come l’insieme di numeri che utilizziamo per descrivere questi livelli memoria. Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l’applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un’altra? (qualsiasi sia questa unità). La risposta non è ovvia, e non possiamo darla per scontata solo perché abbiamo dei numeri. Suppes e Zinnes sostengono che non si possa assumere automaticamente che determinate operazioni sui numeri abbiano un senso. Occorre invece verificare che il sistema numerico rappresenti adeguatamente la struttura delle relazioni empiriche osservate; solo in questo caso le operazioni effettuate sui numeri possono essere interpretate come operazioni dotate di senso sul costrutto misurato<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<!-- Per sezione "Approfondimenti tecnici"
+Rispetto alla definizione di Suppes e Zinnes questo potrebbe essere possibile o no ed è una dei possibili esiti  ed è attraverso la verifica empirica della tenuta degli _assiomi sulla struttura relazionale empirica_[^supp], e quale tipo di, omomorfismo sia giustificato. Secondo Suppes e Zinnes, è questo processo di verifica assiomatica a determinare quali operazioni numeriche siano legittime sul costrutto misurato. ed è attraverso la verifica empirica della tenuta degli assiomi sulla struttura relazionale empirica che si può stabilire se, e quale tipo di, omomorfismo sia giustificato. Secondo Suppes e Zinnes, è questo processo di verifica assiomatica a determinare quali operazioni numeriche siano legittime sul costrutto misurato.
+Ad esempio, supponiamo di avere un test di memoria e di voler giustificare una scala ordinale. È necessario verificare empiricamente che la relazione "ha più memoria di" tra soggetti sia transitiva (se A ricorda più items di B, e B più di C, allora A ne ricorda più di C) e connessa (per ogni coppia di soggetti, uno dei due ricorda più dell'altro o sono equivalenti). Se la transitività fallisce sistematicamente nei dati, cosa empiricamente possibile, la scala ordinale non è giustificata, indipendentemente da come è costruito il test. Voler affermare che una persona ha +20 unità di memoria più di un'altra richiederebbe assiomi aggiuntivi, più forti, sull'equivalenza delle differenze tra punteggi, assiomi che nella pratica psicometrica raramente vengono verificati esplicitamente.
+-->
+<!-- NOTA: forse aggiungere definizione breve di Rasch come ponte per IRT_ -->
+</section>
+</section>
+<section id="quale-definizione-di-misurazione-adottano-i-test-neuropsicologici" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="quale-definizione-di-misurazione-adottano-i-test-neuropsicologici"><span class="header-section-number">1.3</span> Quale definizione di misurazione adottano i test neuropsicologici?</h2>
+<p>Visto che esistono diversi modelli di misurazione, viene spontaneo chiedersi quale di essi adottino i test neuropsicologici (specie quelli disponibili in Italia) e quali conseguenze pratiche ne derivino.</p>
+<p>La risposta non è semplice: per la maggior parte dei test, il modello di misurazione sottostante non viene mai dichiarato esplicitamente. Tuttavia, se facciamo un ragionamento al contrario e cerchiamo di desumerlo a partire dall’utilizzo che si fanno dei punteggi, possiamo dire che implicitamente si assuma la definizione di Stevens e che la misura sia su scala ad intervalli.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nella maggior parte dei test neuropsicologici <em>si assume</em> implicitamente che la misura sia su scala a intervalli.</p>
+</div>
+</div>
+<p>Ricordiamo che assumere una scala ad intervalli significa che le differenze tra punteggi hanno un significato costante lungo tutta la scala. Un esempio classico è la temperatura in gradi Celsius: un aumento di 2°C ha lo stesso significato indipendentemente dal valore di partenza (che si passi da 36° a 38° o da 38° a 40°, in entrambi i casi la variazione è identica).</p>
+<p>Proviamo però ad applicare lo stesso ragionamento a qualche test neuropsicologico, in maniera intuitiva. Prendiamo ad esempio il MoCA (Nasreddine et al., 2005), uno strumento di screening cognitivo con punteggio da 0 a 30. Se fosse davvero misurato su una scala a intervalli, un aumento di 2 punti dovrebbe avere lo stesso significato sia partendo da 24 sia partendo da 28. Eppure un aumento da 28 a 30 porta a un punteggio perfetto, mentre uno da 24 a 26 indica due diversi livelli di prestazione media/medio-alta<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Per chi conosce il test è quantomeno discutibile sostenere che le due variazioni abbiano lo stesso significato.</p>
+<p>Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una intermedia; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni potrebbero non sembrare equivalenti.</p>
+<p>Questi esempi, per quanto informali, mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato. Eppure, la maggior parte dei test neuropsicologici non riporta evidenze o non effettua verifiche che mostrino l’effettiva adeguatezza dell’utilizzo di una scala ad intervalli.</p>
+<!-- aggiungere qui forse esempio con scale di misura dell'indicatore e scala di misura del cosrutto?-->
+<p>Chi ha già utilizzato test neuropsicologici in ambito clinico potrebbe obiettare che il problema è di scarsa rilevanza pratica, almeno quando i test vengono usati semplicemente per stabilire se un punteggio è al di sopra o al di sotto di una soglia di deficit: in quel caso non si effettuano addizioni o sottrazioni, ma ci si limita a confrontare il punteggio con un valore di riferimento (questo argomento sarà trattato in dettaglio nel <a href="#Capitolo2">Capitolo 2</a>). Tuttavia, vi sono situazioni in cui operazioni che implicano una scala ad intervalli entrano in gioco anche nella pratica quotidiana. Un esempio tipico sono le <em>correzioni</em> per età e scolarità, trattate nel capitolo 2 e nell’approfondimento sulle regressioni: queste correzioni consistono nell’aggiungere o sottrarre un valore al punteggio grezzo, operazioni che hanno senso solo su una scala ad intervalli. Anche molti dei metodi utilizzati per misurare cambiamenti nel tempo (vedi paragrafo <!-- NOTA GIORGIO aggiungere qui paragrafo --> ), spesso assumono una scala ad intervalli, con implicazioni non banali sull’interpretazione dei risultati. L’aspetto più delicato di questa discussione è che il trattare i punteggi come se fossero su una scala ad intervalli è una sorta di punto di partenza e un’assunzione implicita non dimostrata, piuttosto che qualcosa verificata empiricamente (come Suppes e Zinnes suggeriscono nel loro modello di misurazione). Anche se quanto appena detto potrebbe sembrare una speculazione da psicometristi, con poco impatto pratico, nel corso di questo libro cercherò di dimostrare che non lo è, e che anzi, in certi casi è una semplificazione che non possiamo dare per scontata.</p>
+<!--
+Tutte queste considerazioni sono sensate e condivisibili, ma, dal punto di vista della teoria della misurazione, si tratta di ragionamenti fondati sul buon senso clinico, non su un modello formale. Conoscere queste basi teoriche permette al neuropsicologo di comprendere meglio le implicazioni delle proprie scelte e di orientarsi in modo più consapevole tra gli strumenti disponibili.
+-->
+<p>È doveroso anticipare già adesso che non sempre i test psicologici soffrono di queste problematiche. Alcuni infatti sono costruiti in modo tale che il significato delle variazioni di punteggio sia formalmente definito e preciso, grazie all’impiego di modelli alternativi di misurazione, ad esempio quelli appartenenti all’ <strong>Item Response Theory</strong>. Purtroppo, per ragioni pratiche e storiche, strumenti con tali caratteristiche sono ancora poco diffusi nella pratica neuropsicologica italiana, e dobbiamo quindi accontentarci di test che assumono una scala ad intervalli, con tutte le problematicità evidenziate (si veda il paragrafo Introduzione all’Item Response Theory per un approfondimento).</p>
+<p>Devo però anche anticipare che adotterò una posizione molto pragmatica su questo aspetto. Anche quando alcune assunzioni di un test risultano discutibili, ciò non significa che il test vada scartato: uno strumento con limitazioni può essere comunque più utile di una valutazione clinica puramente qualitativa.</p>
+<p>Ricapitolando: la maggior parte dei test neuropsicologici adotta implicitamente la concezione della misurazione proposta da Stevens e tratta i punteggi come misure su scala a intervalli, senza però esplicitare o verificare l’adeguatezza di tale assunzione. Gli esempi forniti sul MoCA e del Digit Span mostrano come questa assunzione non si possa però dare per scontata con leggerezza. Va tuttavia chiarito che il neuropsicologo non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. Il messaggio centrale è: <em>ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo</em>. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un’assunzione discutibile è fondamentale per un’interpretazione consapevole dei punteggi.</p>
+<p>Abbiamo parlato a lungo di misurazione, ma lasciamo adesso spazio a quelli che sono gli strumenti di misurazione in neuropsicologia: i test.</p>
+</section>
+<section id="i-test" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="i-test"><span class="header-section-number">1.4</span> I test</h2>
+<p>Già dall’introduzione è stato detto che il protagonista assoluto del libro è il test neuropsicologico. Ma cos’è un test? Come sempre, non possiamo non procedere senza fornire una definizione precisa che ci aiuti a definire cosa è un test (e cosa non lo è) e quali sono le caratteristiche che lo contraddistinguono.</p>
+<p>Esistono in letteratura numerose definizioni di test e, come spesso accade in psicometria, non esiste un consenso unanime su quale sia la più adeguata. Una delle più influenti in ambito psicologico è quella proposta da Lee Cronbach nel suo manuale sul testing psicologico:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definizione
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Test secondo Cronbach (1990)</strong></p>
+<p><em>“Un test è una procedura sistematica per l’osservazione del comportamento di una persona e per la sua descrizione con l’aiuto di una scala numerica o tramite categorie prefissate.”</em> (Cronbach, 1990) (p.&nbsp;32)</p>
+</div>
+</div>
+<p>Fermiamoci a riflettere un attimo sui vari aspetti catturati da questa definizione:</p>
+<p><em>“Un test è una procedura sistematica …”</em></p>
+<p>Questa parte della definizione sottolinea che un test non è semplicemente un insieme di materiali, ma è un processo ben definito e una “procedura”, cioè una sequenza di passaggi che devono essere seguiti affinché si possa dire che è stato somministrato esattamente quel test.</p>
+<p><em>“… per l’osservazione del comportamento …”</em></p>
+<p>In questa seconda parte della definizione, viene sottolineato quanto già detto riguardo la misurazione psicologica: i test psicologici si basano sull’osservazione di comportamenti.</p>
+<p><em>“… e per la sua descrizione con l’aiuto di una scala numerica o tramite categorie prefissate.”</em></p>
+<p>In quest’ultima parte della definizione, è catturata l’essenza dell’esito di una misurazione: un punteggio o l’appartenenza ad una categoria (es. “sano”, “Mild Cognitive Impairment”).</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Il fatto che un test sia una <strong>procedura sistematica</strong> implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi). <!-- aggiungi qui hyperlink al paragrafo sui dati normativi --></p>
+</div>
+</div>
+<p>Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto ai test cognitivi quanto ai questionari di personalità, alle scale di autovalutazione e a molti altri strumenti di misura in ambito psicologico. Tuttavia, presenta un limite importante per i nostri scopi, che è facile identificare con un esempio. Provate a immaginare uno strumento che valuti l’equilibrio di una persona durante il cammino tramite una serie di prove fisiche. Per ogni prova superata si dà un punteggio di 1, e il punteggio globale è dato dalla somma dei punteggi delle varie prove. Questo strumento soddisferebbe formalmente la definizione di Cronbach: è una procedura sistematica, per osservare il comportamento e lo descriverebbe con una scala numerica (il punteggio totale). Tuttavia, questo strumento non sarebbe un test “psicologico”.</p>
+<p>La definizione di Cronbach è utile quindi perché permette di sottolineare, tramite una mancanza, un punto fondamentale che contraddistingue i test psicologici: a differenza di altri tipi di test, i test psicologici non hanno quasi mai interesse solo nel comportamento osservato (le risposte del paziente agli item del test) ma nel <strong>costrutto</strong> psicologico che si vuole misurare (vedi <a href="#cosa-misuriamo-in-neuropsicologia-clinica">paragrafo precedente</a>). Il punteggio è dunque una rappresentazione <em>indiretta</em> di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), tramite un comportamento osservabile. Questa relazione è rappresentata nella <a href="#fig-costrutto-punteggio" class="quarto-xref">Figura&nbsp;<span>1.4</span></a>.</p>
+<div id="fig-costrutto-punteggio" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-costrutto-punteggio-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../Figures/Latex-Fig-Costrutto-Comportamento-Punteggio/Fig_measurement_3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-costrutto-punteggio-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1.4: Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) è legato a comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio.
+</figcaption>
+</figure>
+</div>
+<p>Da notare che quanto appena detto è, in sostanza, quello che abbiamo già trattato nel paragrafo <a href="#misurazione_e_neuropsicologia_clinica"><em>“misurazione e neuropsicologia clinica”</em></a>. Riprendiamo l’esempio della misurazione con un termometro e approfondiamolo. La situazione di una misurazione indiretta in psicologia potrebbe sembrare non troppo diversa da quella dell’esempio del termometro: del resto anche la temperatura non è direttamente osservabile, ma è legata a un indicatore osservabile (l’espansione del galinstan o mercurio) che ci permettono di ottenere un numero (i gradi) che rappresenta indirettamente ciò che vogliamo misurare. Nonostante questa apparente somiglianza, la misurazione in neuropsicologia, e in psicologia in generale, è molto più complessa. Senza scendere troppo nei dettagli la ragione è che la relazione tra costrutto psicologico e indicatore è molto più complessa di quello che accade con gli indicatori osservabili di misurazioni fisiche. Più nello specifico non esiste una relazione <em>causale</em> univoca tra proprietà non osservabile e comportamento osservabile: avere una certa memoria non determina in maniera causale che si ottenga un certo comportamento (piuttosto probabilistica, vedi paragrafo “Altri modelli di misurazione”). A complicare le cose, molte variabili non direttamente di interesse possono alterare in maniera importante la relazione tra costrutto e comportamento osservabile (cioè l’indicatore). Sempre in relazione al punteggio al test di memoria si consideri per esempio la motivazione, l’umore, la fatica, la stanchezza, l’ansia, la confusione, la distrazione, la presenza di dolore o di sintomi fisici, e così via. Tutte queste variabili possono influenzare il comportamento osservato (le risposte al test) e di conseguenza il punteggio ottenuto, indipendentemente dal costrutto di interesse (la memoria).</p>
+<div id="fig-altre-variabili" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-altre-variabili-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../Figures/Latex-Fig-AltreVariabili/Fig_measurement_4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-altre-variabili-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1.5: Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.
+</figcaption>
+</figure>
+</div>
+<!-- RIPETIZIONE, DA TOGLIERE?
+Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, merita di essere ripetuta perché ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e come tratteremo nel corso dei capitoli di questo libro, richiede un'interpretazione critica dei risultati.
+-->
+<p></p>
+<section id="tipologie-di-test" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="tipologie-di-test"><span class="header-section-number">1.4.1</span> Tipologie di test</h3>
+<p>Esistono diverse tipologie di test così come diversi modi di poterli classificare. Di seguito vengono descritti i principali tipi di test utilizzati in neuropsicologia clinica. Fornire una classificazione è utile perché diversi tipi di test hanno diverse peculiarità di tipo psicometrico. Nel corso del libro specificheremo quando alcune considerazioni si applicano solo, o prevalentemente, ad un tipo di test.</p>
+<section id="test-di-prestazione-massima" class="level4" data-number="1.4.1.1">
+<h4 data-number="1.4.1.1" class="anchored" data-anchor-id="test-di-prestazione-massima"><span class="header-section-number">1.4.1.1</span> Test di prestazione massima</h4>
+<p>I <strong>test di prestazione massima</strong> (<em>maximal performance tests</em>) sono strumenti in cui si chiede al paziente di impegnarsi al massimo delle proprie capacità per ottenere il miglior risultato possibile. L’obiettivo è valutare <em>cosa una persona è in grado di fare</em> quando le condizioni sono ottimali e lo sforzo è massimo. La maggior parte dei test neuropsicologici per la valutazione delle funzioni cognitive (test di memoria, attenzione, funzioni esecutive, linguaggio, abilità visuospaziali) rientra in questa categoria. Il punteggio ottenuto è interpretato come una stima della capacità massima del paziente in quel dominio cognitivo.</p>
+</section>
+<section id="test-di-comportamento-tipico" class="level4" data-number="1.4.1.2">
+<h4 data-number="1.4.1.2" class="anchored" data-anchor-id="test-di-comportamento-tipico"><span class="header-section-number">1.4.1.2</span> Test di comportamento tipico</h4>
+<p>I <strong>test di comportamento tipico</strong> (<em>typical behaviour tests</em>) sono invece strumenti progettati per valutare come una persona si comporta o risponde <em>tipicamente</em>, ovvero nel suo quotidiano, non necessariamente con un sforzo massimo. In questi strumenti non esiste una risposta “giusta” da dare. Rientrano in questa categoria due grandi famiglie di strumenti:</p>
+<ul>
+<li><strong>Autosomministrati</strong> (compilati dal paziente stesso): questionari di personalità, scale di autovalutazione per sintomi psicologici come ansia e depressione (es. Beck Depression Inventory (Beck et al., 1961), Hamilton Anxiety Scale (Hamilton, 1959)), scale per la qualità della vita. Il paziente descrive come si sente o come si comporta generalmente.</li>
+<li><strong>Eterosomministrati</strong> (compilati dal clinico o da un caregiver): scale per la valutazione del funzionamento nelle attività quotidiane, come le ADL, <em>Activities of Daily Living</em>; (Katz et al., 1963) e le IADL, <em>Instrumental Activities of Daily Living</em> (Lawton &amp; Brody, 1969). In questo caso è il clinico o un familiare a rispondere sulla base dell’osservazione diretta del paziente, non il paziente stesso.</li>
+</ul>
+<p>La distinzione tra questi due tipi di test è rilevante per la somministrazione, per l’interpretazione dei punteggi e per il tipo di costrutto che si intende misurare.</p>
+</section>
+<section id="altri-strumenti-utili-per-la-valutazione-neuropsicologica" class="level4" data-number="1.4.1.3">
+<h4 data-number="1.4.1.3" class="anchored" data-anchor-id="altri-strumenti-utili-per-la-valutazione-neuropsicologica"><span class="header-section-number">1.4.1.3</span> Altri strumenti utili per la valutazione neuropsicologica</h4>
+<p>Nella pratica clinica, accanto ai test di prestazione massima e ai questionari di comportamento tipico, esiste una terza categoria di strumenti che fanno parte della valutazione neuropsicologica standard pur non rientrando in senso stretto nella classificazione fin qui descritta: si tratta di <strong>questionari e scale somministrate come parte integrante della valutazione clinica</strong>, non per misurare una funzione cognitiva o altri costrutti psicologici legati a comportamenti abituali, ma per raccogliere informazioni contestuali utili per l’interpretazione dei risultati.</p>
+<p>L’esempio più rilevante in ambito neuropsicologico e che negli ultimi anni ha avuto sempre più utilizzo è la stima della <strong>riserva cognitiva</strong>. La riserva cognitiva, cioè la capacità del cervello di compensare per i danni di una la patologia degenerativa o acuta senza manifestare sintomi espliciti, è considerata una variabile moderatrice importante nell’interpretazione delle prestazioni cognitive, soprattutto nelle valutazioni legate a patologie neurodegenerative. Per stimarla si utilizzano strumenti come il <strong>CRIq</strong> (<em>Cognitive Reserve Index questionnaire</em>; Nucci et al., 2012), un questionario in cui si raccolgono informazioni su anni di istruzione, attività lavorativa e attività del tempo libero nel corso della vita. Il CRIq non è un test di prestazione massima: non si chiede al paziente di fare del proprio meglio su un compito, ma di riportare informazioni anamnestiche strutturate.</p>
+<p>Questi strumenti condividono con i test psicologici il fatto di produrre un punteggio numerico, e rientrano quindi nella definizione di test di Cronbach.</p>
+</section>
+</section>
+<section id="questo-è-un-buon-test" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="questo-è-un-buon-test"><span class="header-section-number">1.4.2</span> Questo è un buon test?</h3>
+<p>La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una domanda importante: <em>qualunque</em> strumento che assegni numeri a comportamenti osservati può essere considerato un buon test? Consideriamo il seguente test ipotetico per la memoria:</p>
+<blockquote class="blockquote">
+<p>Al paziente viene letta ad alta voce la seguente lista di 7 parole: <em>casa, mela, treno, fiume, cane, libro, sole</em>. Dopo 30 secondi, gli viene chiesto di ricordare quante più possibili. Il punteggio finale è il numero di parole ricordate (da 0 a 7).</p>
+</blockquote>
+<p>Questo strumento soddisfa formalmente la definizione di Cronbach: è una procedura sistematica, osserva il comportamento (le parole ricordate) e lo descrive con una scala numerica. Soddisfa anche la definizione di Stevens: assegna numeri a eventi secondo regole precise.</p>
+<div class="domanda">
+<p>Ma questo è davvero un buon test per la memoria?</p>
+</div>
+<p>È verosimile che la vostra risposta “di pancia”, sia stata <em>no</em>, anche se non avete una spiegazione tecnica. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche[^pochiitems], che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono ragionevoli e probabilmente condivisibili, ma non sono basate su aspetti tecnici o su effettive verifiche sulla qualità del test. Sono semplicemente basate sul buon senso e sull’esperienza clinica. [^pochiitems]: Il numero di item da solo non è un indicatore della qualità di un test. Esistono test pubblicati e validati anche con pochissimi item: per esempio, esiste una versione a 3 item della <em>UCLA Loneliness Scale</em> per la misurazione (Gosling et al., 2024).</p>
+<p>Nel corso di questo libro daremo delle risposte più rigorose a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.</p>
+<p>Esistono diversi framework teorici che hanno cercato di definire questi aspetti fondamentali che definiscono come identificare se un test sta funzionando come dovrebbe e, più in generale, come si dovrebbe costruire un test. Come è possibile immaginare, tutto ciò è spesso strettamente intrecciato a veri e propri modelli di misurazione psicologica. Nel prossimo paragrafo tratteremo il framework più diffuso e utilizzato in neuropsicologia clinica, noto come la Teoria Classica dei Test.</p>
+</section>
+</section>
+<section id="teoria-classica-dei-test" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="teoria-classica-dei-test"><span class="header-section-number">1.5</span> Teoria Classica dei Test (CTT)</h2>
+<p>La Teoria Classica dei Test o <em>Classical Test Theory (CTT)</em> è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. Come già visto per altri aspetti psicometrici, spesso non vi è una dichiarazione esplicita di seguire la CTT, ma questo può essere desunto dall’utilizzo di alcune analisi (ad esempio, calcolare la consistenza interna o l’affidabilità test-retest), che ne sono una diretta espressione. Comprendere i presupposti della CTT è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.</p>
+<section id="il-principio-cardine-x-t-e" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="il-principio-cardine-x-t-e"><span class="header-section-number">1.5.1</span> Il principio cardine: X = T + E</h3>
+<p>Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definizione
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(X = T + E\)</span></p>
+<p><span class="math inline">\(X\)</span>: punteggio osservato (<em>observed score</em>)<br>
+<span class="math inline">\(T\)</span>: punteggio vero (<em>true score</em>)<br>
+<span class="math inline">\(E\)</span>: errore di misura (<em>error</em>)<br>
+</p>
+</div>
+</div>
+<p>Nell’equazione base della CTT, <span class="math inline">\(X\)</span> rappresenta il <strong>punteggio osservato</strong>, ovvero quello che si ottiene concretamente somministrando il test a una persona in una specifica occasione. <span class="math inline">\(T\)</span> è il <strong>punteggio vero</strong> (<em>true score</em>), cioè la quantità del costrutto che la persona davvero possiede, la sua vera capacità di memoria, attenzione o qualsiasi altro attributo il test intenda misurare. Infine, <span class="math inline">\(E\)</span> è l’<strong>errore di misura</strong> (<em>error</em>), la componente casuale che in ogni singola somministrazione porta il punteggio osservato a discostarsi, in più o in meno, dal punteggio vero.</p>
+<p>L’idea centrale della CTT è che ogni volta che somministriamo un test otteniamo una stima imperfetta dell’abilità reale della persona: il punteggio osservato <span class="math inline">\(X\)</span> è la somma di quanto la persona sa o può fare davvero (<span class="math inline">\(T\)</span>) e di una quota di rumore casuale (<span class="math inline">\(E\)</span>) che dipende da molte circostanze, anche contingenti (ad esempio la stanchezza del giorno, il livello di ansia durante la valutazione, una distrazione durante le istruzioni, un item che per qualche motivo è risultato più facile o difficile del solito). <em>L’errore, può essere positivo o negativo e varia simmetricamente intorno allo zero.</em> Un altro modo di pensare <span class="math inline">\(T\)</span> è quello del punteggio che otterremmo se non avessimo alcun errore di misura.</p>
+<p>Un’assunzione cruciale è che <span class="math inline">\(T\)</span> ed <span class="math inline">\(E\)</span> siano <em>indipendenti tra loro</em>: l’errore non dipende sistematicamente dal punteggio vero della persona. In altre parole, avere un punteggio basso o alto non rende l’errore sistematicamente più grande o più piccolo, è sempre una componente casuale che oscilla intorno allo zero.</p>
+<p>Per fare un esempio concreto: supponiamo che il punteggio vero di una persona a un test di memoria, in cui il punteggio va da 0 a 30, sia <span class="math inline">\(T = 10\)</span>. Se il giorno della somministrazione la persona è stanca o ansiosa, potrebbe ottenere <span class="math inline">\(X = 7\)</span>, con un errore <span class="math inline">\(E = -3\)</span> che ha abbassato il punteggio. Se invece è riposata e particolarmente motivata, potrebbe ottenere <span class="math inline">\(X = 12\)</span>, con <span class="math inline">\(E = +2\)</span> che lo ha leggermente sovrastimato. In entrambi i casi, il punteggio vero rimane <span class="math inline">\(T = 10\)</span>. Da notare che il possibile errore non sarebbe diverso se il punteggio vero fosse più basso (es. <span class="math inline">\(T = 5\)</span>) o più alto (es. <span class="math inline">\(T = 25\)</span>). Il punteggio vero <span class="math inline">\(T\)</span>, che stimiamo a partire dal punteggio osservato <span class="math inline">\(X\)</span> è la rappresentazione dell’abilità reale, quella che rimarrebbe stabile se potessimo somministrare lo stesso test infinite volte nelle stesse condizioni ideali.</p>
+<p>L’idea delle “misurazioni infinite” non è solo un espediente retorico: nella CTT il punteggio vero <span class="math inline">\(T\)</span> è definito formalmente proprio come il valore atteso (la media) di <span class="math inline">\(X\)</span> su infinite ripetizioni della misura. Se l’errore <span class="math inline">\(E\)</span> è davvero casuale e con media zero, come la CTT assume, allora i contributi positivi e negativi dell’errore si cancellerebbero a vicenda su infinite somministrazioni, e la media di tutti i punteggi osservati convergerebbe esattamente a <span class="math inline">\(T\)</span>. In una singola somministrazione non sappiamo se l’errore ci ha penalizzato o favorito; ma l’idea che <span class="math inline">\(T\)</span> “esista” come limite di questo processo ci dà un fondamento teorico per trattare il punteggio osservato come una stima, per quanto imperfetta, dell’abilità reale.</p>
+<p>La <a href="#fig-CTT-true-obs" class="quarto-xref">Figura&nbsp;<span>1.6</span></a> illustra questa dinamica con una simulazione: trenta somministrazioni ripetute dello stesso test alla stessa persona (punteggio vero <span class="math inline">\(T = 10\)</span>), con i punteggi osservati che fluttuano attorno alla linea del punteggio vero per effetto dell’errore casuale. Nessuna singola misurazione coincide esattamente con <span class="math inline">\(T\)</span>, ma tutte sono intorno ad esso: è proprio questo che rende <span class="math inline">\(T\)</span> una sorta di “centro di gravità” della distribuzione dei punteggi osservati.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-CTT-true-obs" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-CTT-true-obs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Misurazione_files/figure-html/fig-CTT-true-obs-1.png" class="img-fluid figure-img" width="576">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-CTT-true-obs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1.6: Trenta somministrazioni simulate dello stesso test alla stessa persona con punteggio vero <span class="math inline">\(T = 10\)</span> (linea continua). I cerchi rappresentano i punteggi osservati, che fluttuano attorno a <span class="math inline">\(T\)</span> per effetto dell’errore casuale <span class="math inline">\(E\)</span>.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>È importante sottolineare che nella pratica clinica, ciò che vedremo sarà sempre e solo <em>un punteggio osservato</em> e cioè <span class="math inline">\(X\)</span>, molto spesso una singola realizzazione di uno dei possibili punteggi osservati possibili (in riferimento alla <a href="#fig-CTT-true-obs" class="quarto-xref">Figura&nbsp;<span>1.6</span></a>, quello che vedremo è uno solo dei possibili cerchietti). Tale punteggio sarà dunque sempre e solo una stima del punteggio vero <span class="math inline">\(T\)</span>, e non potremo mai sapere con certezza se quell’osservazione è stata influenzata da un errore positivo o negativo, né di quanto.</p>
+<p>Questa consapevolezza porta a identificare due obiettivi prioritari nel processo di costruzione di un test: il primo è ridurre al minimo l’errore <span class="math inline">\(E\)</span>, affinché il punteggio osservato sia il più possibile vicino al punteggio vero; il secondo è riuscire a stimare l’entità di quell’errore, in modo da sapere con quale margine di incertezza si sta lavorando quando si interpreta un punteggio. Va da sé, che in neuropsicologia clinica, sarebbe prioritario avere test con il più piccolo errore di misura possibile, in modo da ottenere stime più precise dell’abilità reale dei pazienti e che siano il meno possibile influenzati da fattori contingenti. Questo ci assicurerebbe di avere una stima più accurata del funzionamento cognitivo dei pazienti, migliorando la nostra capacità di diagnosticare deficit, monitorare cambiamenti nel tempo e valutare l’efficacia di interventi riabilitativi.</p>
+</section>
+<section id="limiti-della-ctt" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="limiti-della-ctt"><span class="header-section-number">1.5.2</span> Limiti della CTT</h3>
+<p>La CTT, pur essendo il framework dominante e pur avendo dimostrato grande utilità pratica, presenta alcuni limiti intrinseci che è importante conoscere, non per scartare il modello, ma per sapere dove le sue assunzioni devono essere accettate con una certa cautela o quantomeno con consapevolezza.</p>
+<p>Il primo limite riguarda il fatto che nella CTT le abilità del soggetto e la difficoltà degli item non sono modellate separatamente. Il punteggio di una persona dipende sia dalla sua abilità sia dalla difficoltà specifica degli item inclusi in quella versione del test: un test composto da item particolarmente difficili abbassa i punteggi di tutti i soggetti, indipendentemente dalla loro abilità reale. <!-- Il problema pratico più evidente è che diventa difficile confrontare punteggi ottenuti con versioni diverse dello stesso test, per esempio in valutazioni ripetute nel tempo con forme parallele, perché non è chiaro quanto di una differenza di punteggio rifletta un reale cambiamento nell'abilità e quanto dipenda semplicemente dalla diversa difficoltà degli item somministrati. Questo tornerà come tema centrale nel capitolo dedicato a [_Misurare Cambiamenti nel Tempo_](chapters/Cambiamenti-nel-tempo.qmd). --></p>
+<p>Il secondo limite riguarda l’assunzione di indipendenza tra <span class="math inline">\(T\)</span> ed <span class="math inline">\(E\)</span>. Questa assunzione, pur ragionevole nella parte centrale della scala, è sistematicamente violata ai valori estremi. Se il punteggio vero di una persona è vicino al massimo del test, l’errore non può distribuirsi liberamente in entrambe le direzioni: la persona non può ottenere un punteggio osservato superiore al massimo, quindi l’errore può solo abbassare il punteggio, mai alzarlo oltre il limite. Lo stesso accade al limite inferiore: il punteggio osservato non può scendere sotto lo zero, per cui l’errore diventa asimmetrico e smette di essere indipendente dal punteggio vero. Ai valori estremi, in altre parole, l’errore stesso dipende da dove si trova la persona nella scala, il che viola direttamente l’assunzione fondamentale del modello.</p>
+<p>Torniamo all’ipotetico test di memoria con valori possibili da 0 a 30. Se una persona avesse un punteggio vero <span class="math inline">\(T=30\)</span>, l’errore <span class="math inline">\(E\)</span> non potrebbe mai essere positivo, perché il punteggio osservato <span class="math inline">\(X\)</span> non può superare il massimo di 30. Se invece <span class="math inline">\(T=0\)</span>, l’errore non potrebbe mai essere negativo, perché <span class="math inline">\(X\)</span> non può scendere sotto zero. In entrambi i casi, l’errore è limitato in una sola direzione, e quindi dipende dal valore di <span class="math inline">\(T\)</span>, violando l’assunzione di indipendenza.</p>
+<p>Questi limiti non rendono la CTT inutilizzabile, e i test neuropsicologici che ne derivano rimangono strumenti clinicamente preziosi nella pratica quotidiana, ma spiegano perché nel corso degli anni si siano sviluppati modelli di misurazione alternativi.</p>
+<!-- FORSE QUI CENNI SU ALTRI FRAMEWORK DI MISURAZIONE?
+### Cenni sull'Item Response Theory
+
+L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
+-->
+</section>
+<section id="riassunto-sulla-ctt" class="level3" data-number="1.5.3">
+<h3 data-number="1.5.3" class="anchored" data-anchor-id="riassunto-sulla-ctt"><span class="header-section-number">1.5.3</span> Riassunto sulla CTT</h3>
+<p>Abbiamo descritto il principio cardine della CTT e alcune delle sue assunzioni fondamentali. Come anticipato, la maggior parte dei test neuropsicologici adotta implicitamente questo framework e questo lo si desume dalle analisi e dalle metodologie impiegate nel loro sviluppo, più che da una dichiarazione esplicita.</p>
+<p>Queste rispondono alla domanda posta in precedenza: come stabilire se un test è un buon test? Secondo la CTT, sono necessarie informazioni sulla <strong>validità</strong> del test, intesa come giustificazione del legame tra punteggio e costrutto, e sulla sua <strong>affidabilità</strong>, ovvero la precisione e la consistenza della misura. Questi due concetti costituiscono il nucleo della psicometria nell’ambito della CTT e saranno trattati in dettaglio nei paragrafi successivi.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nei manuali o articoli dei test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall’utilizzo di certe caratteristiche, come l’utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="validità-ed-affidabilità" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="validità-ed-affidabilità"><span class="header-section-number">1.6</span> Validità ed Affidabilità</h2>
+<section id="tipi-di-validità-e-perché-sono-importanti" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="tipi-di-validità-e-perché-sono-importanti"><span class="header-section-number">1.6.1</span> Tipi di Validità e perché sono importanti</h3>
+<section id="validità-di-costrutto" class="level4" data-number="1.6.1.1">
+<h4 data-number="1.6.1.1" class="anchored" data-anchor-id="validità-di-costrutto"><span class="header-section-number">1.6.1.1</span> Validità di costrutto</h4>
+</section>
+<section id="validità-concorrente" class="level4" data-number="1.6.1.2">
+<h4 data-number="1.6.1.2" class="anchored" data-anchor-id="validità-concorrente"><span class="header-section-number">1.6.1.2</span> Validità concorrente</h4>
+</section>
+<section id="validità-predittiva" class="level4" data-number="1.6.1.3">
+<h4 data-number="1.6.1.3" class="anchored" data-anchor-id="validità-predittiva"><span class="header-section-number">1.6.1.3</span> Validità predittiva</h4>
+</section>
+<section id="validità-interna" class="level4" data-number="1.6.1.4">
+<h4 data-number="1.6.1.4" class="anchored" data-anchor-id="validità-interna"><span class="header-section-number">1.6.1.4</span> Validità interna</h4>
+</section>
+<section id="validità-di-facciata" class="level4" data-number="1.6.1.5">
+<h4 data-number="1.6.1.5" class="anchored" data-anchor-id="validità-di-facciata"><span class="header-section-number">1.6.1.5</span> Validità di facciata</h4>
+</section>
+<section id="validità-ecologica" class="level4" data-number="1.6.1.6">
+<h4 data-number="1.6.1.6" class="anchored" data-anchor-id="validità-ecologica"><span class="header-section-number">1.6.1.6</span> Validità ecologica</h4>
+</section>
+</section>
+</section>
+<section id="affidabilità" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="affidabilità"><span class="header-section-number">1.7</span> Affidabilità</h2>
+<section id="tipi-di-affidabilità-e-perché-sono-importanti" class="level3" data-number="1.7.1">
+<h3 data-number="1.7.1" class="anchored" data-anchor-id="tipi-di-affidabilità-e-perché-sono-importanti"><span class="header-section-number">1.7.1</span> Tipi di affidabilità e perché sono importanti</h3>
+<section id="consistenza-interna" class="level4" data-number="1.7.1.1">
+<h4 data-number="1.7.1.1" class="anchored" data-anchor-id="consistenza-interna"><span class="header-section-number">1.7.1.1</span> Consistenza Interna</h4>
+</section>
+<section id="affidabilità-test-retest" class="level4" data-number="1.7.1.2">
+<h4 data-number="1.7.1.2" class="anchored" data-anchor-id="affidabilità-test-retest"><span class="header-section-number">1.7.1.2</span> Affidabilità Test Retest</h4>
+</section>
+<section id="affidabilità-split-half" class="level4" data-number="1.7.1.3">
+<h4 data-number="1.7.1.3" class="anchored" data-anchor-id="affidabilità-split-half"><span class="header-section-number">1.7.1.3</span> Affidabilità Split-Half</h4>
+</section>
+<section id="inter-rater-agreement" class="level4" data-number="1.7.1.4">
+<h4 data-number="1.7.1.4" class="anchored" data-anchor-id="inter-rater-agreement"><span class="header-section-number">1.7.1.4</span> Inter-Rater Agreement</h4>
+</section>
+</section>
+</section>
+<section id="sviluppo-di-test-secondo-ctt" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="sviluppo-di-test-secondo-ctt"><span class="header-section-number">1.8</span> Sviluppo di test secondo CTT</h2>
+</section>
+<section id="oltre-la-teoria-classica-dei-test" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="oltre-la-teoria-classica-dei-test"><span class="header-section-number">1.9</span> Oltre la Teoria Classica dei Test</h2>
+<!--
+Finora il capitolo ha trattato la misurazione in neuropsicologia e sui test con un focus sulle prassi di utilizzo nella pratica clinica e in quello che neuropsicologhe e neuropsicologi possono trovare nei test che utilizzaranno. 
+Il focus sulla Teoria Classica dei Test è stato infatti scelto sulla base dell'attuale utilizzo della stessa nella prassi di sviluppo dei test neuropsicologici (in Italia e non solo), più che per una posizione. La psicometria è però un ambito molto ampio ed esistono diverse prospettive alla misurazione e allo sviluppo di test, spesso in grado di risolvere tutti quei problemi che abbiamo sottolineato (es. l'assunzione non dimostrato di misurazione su scala ad intervalli).
+
+### Introduzione all'Item Response Theory
+Il principale approccio alternativo alla Teoria Classica dei Test è quella famiglia di modelli noti come Teoria di Risposta all'Item, o _Item Response Theory_ (IRT) (si veda anche Approfondimenti Tecnici, Item Response Theory).
+L'Item Response Theory nasce quasi in contrapposizione alla Classical Test Theory e ne critica le fondamenta, così come critica la permissività della definizione di misurazione di Stevens. 
+Esistono diversi modelli di Item Response Theory, ma tutti condividono un aspetto di base: assumere che ci sia un costrutto latente da misurare e che in base al livello di abilità nel costrutto latente, cabmbia la probabilità di rispondere correttamente ad un determinato item. Un individuo con un abilità alta avrà una probabilità alta di rispondere ad item facili e una probabilità graduamente minore di risposte ai più difficili. Un individuo con abilità bassa avrà già una probabilità bassa di rispondere a item magari giù più facile e una probabilità quasi nulla di rispondere agli item più difficili. Gli elementi principali che caratterizzano i modelli IRT sono:
+
+- il focus è sulla _probabilità di risposta ad un singolo item_ e non al punteggio totale del test (come era per la CTT, in cui focus è su $T$).
+- nei modelli più diffusi di IRT, a partire dal modello di _Rasch_ in un certo senso, il capostipite di questa famiglia, si assume che il costrutto da misurare sia _unidimensionale_ cioè sia possa rappresentare lungo un unica dimensione (es. posso dire di avere più o meno ansia, ma non diversi tipi di ansia). Altri modelli della IRT rilassano questo assunto.
+- il processo di sviluppo di un Test secondo IRT è più difficile di un test sviluppato secondo CTT ed è anche possibile che il risultato non sia positivo. In altre parole, potrebbe risultare più facilmente che il test non sia adeguato secondo il modello di misurazione.
+
+Ci si potrebbe chiedere perché non si usano questi modelli che sembrano più rigorosi. Come spesso accade nella scienza, la risposta è complessa e non è necessariamente una motivazione logica. Probabilmente è un insieme di fattori, tra cui la maggiore semplicità di sviluppare test con la CTT e, quantomeno in alcuni casi, la percezione che sviluppare un test con IRT non porta a grandi vantaggi pratici, rispetto al corrispettivo sviluppato con CTT.
+
+### I Punteggi Equivalenti come modello di misurazione
+Un libro italiano su psicometria della neuropsicologia invitabilmente dedicherà molto spazio ai Punteggi Equivalenti (Capitani & Laiacona, 1989, Capitani, 1987).
+I Punteggi Equivalenti è una metodologia di trasformazione di un punteggio grezzo totale di un test in una scala di punteggi da 0 a 4, in cui la probabilità di ottenere un punteggio non è influenzata 
+da età, scolarità o sesso. I punteggi equivlaenti nascono principalmente come metodo per ottenere delle soglie (un punteggio di 0 è considerato sospetto di deficit/danno cognitivo) e pertanto saranno descritti in maniera approfondita nel capitolo dedicato a soglie e cut-off di normalità. È utile però citare i Punteggi Equivalenti anche qui perchè di fatto questa metodologia fa anche specifiche ipotesi e assunzioni sulla relazione tra costrutto misurato e punteggio ottenuto ai test, in un certo senso, proprio ipotizzando un modello di misurazione, in particolare assumendo che il costrutto sia distribuito normalmente, mentre che il punteggio sia con una relazione ordinale rispetto al costrutto. Nell'utilizzo dei Punteggi Equivalenti si utilizzano però anche spesso riferimenti alla CTT. Infatti, nel famoso compendio di test neuropsicologici pubblicato da Spinnler & Tognoni nel 1987 e in cui Capitani per la prima volta ha spiegato in dettaglio il metodo, vengono presentati dati di affidabilità test-retest, in chiaro riferimento all CTT. Per un approfondimento sui Punteggi Equivalenti si veda il [paragrafo dedicato](#I-Punteggi-Equivalenti).
+
+### Altri modelli di misurazione
+Ovviamente esistono molti altri modelli di misurazione con grandi potenzialità per la neuropsicologia e molti di questi non saranno trattati in questo libro perché non utilizzati in alcun test disponibile. Nonostante ciò penso sia utile menzionarli, anche auspicando che questi saranno sempre più popolari nel futuro in ambito neuropsicologico.
+Un metodo che certamente ha molte potenzialità è quello della _Knowledge Space Theory (KST)_ che parte da presupposti molto diversi da quelli che abbiamo visto finora. 
+Invece di assumere che il costrutto sia descrivibile con un numero, la KST cerca invece di definire degli _stati_ entro cui una persona può trovarsi sulla base delle risposte agli item. Questi stati non sono rappresentabili lungo una linea (come l'unidimensionalità dei modelli IRT di norma assumono), ma sono all'interno di una struttura a "grafo" che descrive il legame probabilisitico Di passaggio da uno stato ad un altro stato. Per fornire un esempio neuropsicologico, uno stato potrebbe essere quello in cui l'individuo sa vestirsi autonomamente, mentre un altro stato potrebbe essere quello di poter comunicare autonomamente (es. al telefono), e un ulteriore stato potrebbe essere caratterizzato dalla capacità di vestirsi _e_ comunicare autonomamente.
+Scopo della KST è capire se una classificazione in questi stati è effettivamente supportata empiricamente e se fornisce un quadro che può dire quali sono le transizioni più probabili da uno stato all'altro. Questo appare di ovvia utilità da un punto di vista di riabilitazione neuropsicologica, per esempio potrebbe suggerire quale è la direzione su cui insistere per andare verso un grado sempre maggiore di autonomia.
+La caratteristica della KST, in contrapposizione ad altri modelli di sviluppo di test (come CTT e IRT) e di misurazione è che appunto non cerca di descrivere costrutti come numeri. Considerando i costrutti neuropsicologici, queste premesse della KST sembrano quantomeno molto promettenti e sembrano catturare meglio la complessità degli stati in cui può trovare un paziente con una cerebrolesione o una malattia neurodegenerativa.
+-->
+</section>
+<section id="nella-pratica-clinica-come-usare-affidabilità-e-validità-per-scegliere-i-test" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="nella-pratica-clinica-come-usare-affidabilità-e-validità-per-scegliere-i-test"><span class="header-section-number">1.10</span> Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test</h2>
+</section>
+<section id="nella-pratica-clinica-come-usare-affidabilità-e-validità-per-interpretare-i-test" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="nella-pratica-clinica-come-usare-affidabilità-e-validità-per-interpretare-i-test"><span class="header-section-number">1.11</span> Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test</h2>
+</section>
+<section id="errori-comuni-nel-considerare-gli-aspetti-psicometrici-dei-test." class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="errori-comuni-nel-considerare-gli-aspetti-psicometrici-dei-test."><span class="header-section-number">1.12</span> Errori comuni nel considerare gli aspetti psicometrici dei test.</h2>
+<p>–&gt;</p>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>per <em>oggettivo</em> indichiamo un risultato che non è dipendente da chi sta effettuando l’esame.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Tornando per un attimo alla Definizione di misurazione di Stevens e alla Tabella 1.2, La lunghezza di un tavolo sarebbe misurata su una <em>scala a rapporti</em> e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>è importante notare che non tutti sarebbero d’accordo nel dire che l’insieme di costrutti psicologici (cioè concetti non osservabili) sono parte di un sistema relazionale empirico. La domanda è però proprio al confine dell’epistemologia: un concetto psicologico non osservabile è parte del mondo empirico (così come lo sono altri entità non osservabili) oppure no? Per i nostri scopi la diversa collocazione dei concetti psicologici (come entità del mondo empirico o no), è irrilevante. Qui assumo che i concetti psicologici siano di fatti parte dei sistemi relazionali empirici in un certo senso aggirando il problema, e utilizzando la definizione di sistema relazionale empirico come ogni sistema relazionale <em>non</em> numerico.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>questo aspetto è affrontato più in dettaglio nella sezione <em>Approfondimenti tecnici</em><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>per complicare ulteriormente il quadro qualcuno che conosce il MoCA potrebbe anche dire che il significato di questi <span class="math inline">\(+2\)</span>, dipende molto da quale è l’item (o gli item) a cui è legato questo punteggio, questo esempio è trattato in un <a href="#Approfondimento-item-arbitrari">Approfondimento</a>).<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiato!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiato!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/Introduzione.html" class="pagination-link" aria-label="Introduzione">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduzione</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/Bibliografia.html" class="pagination-link" aria-label="Bibliografia">
+        <span class="nav-page-text">Bibliografia</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/giorgioarcara/oltre-i-punteggi-elementi/issues/new" class="toc-action"><i class="bi bi-github"></i>Segnala un problema</a></li><li><a href="https://github.com/giorgioarcara/oltre-i-punteggi-elementi/edit/main/chapters/Misurazione.qmd" class="toc-action"><i class="bi empty"></i>Modifica questa pagina</a></li></ul></div></div></div></footer><div style="margin-top:2em; font-size:0.9em; text-align:center; color:gray;">
+Questo è un libro in fase di scrittura.<br>
+Per aggiornamenti visita: <a href="https://giorgioarcara.github.io/oip-book">giorgioarcara.github.io/oip-book</a><br>
+Ultimo aggiornamento: 09 June 2026, 14:00
+</div>
+
+
+
+
+</body></html>
