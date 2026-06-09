@@ -16,3 +16,15 @@ iframe {
 p {
   text-align: justify;
 }
+
+.domanda {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 0.6em 1.5em;
+  margin: 1.5em auto;
+  color: #555;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  max-width: 85%;
+}
